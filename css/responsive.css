@@ -1,0 +1,28 @@
+/* XL (Desktop,Laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	
+}
+
+/*LG Device :992px. (Desktop tablet horizontal)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+
+/*MD Device :768px. (Small tablet,Phone vertical)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+
+/*SM Extra small Device. (Phone)*/
+@media (max-width: 767px) {
+	
+	
+}
+
+/* SM Small Device :550px. (Phone)*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	
+
+}

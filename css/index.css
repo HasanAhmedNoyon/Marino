@@ -1,0 +1,228 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+h1 h2 h3  h4 h5 h6 p{
+    font-family: 'Poppins', sans-serif;
+}
+.head-top {
+    background-color: black;
+    border-bottom: 3px solid #008ed6;
+    background : #292b2c;
+    opacity: 0.7;
+}
+
+.nav-link{
+    color: white;
+    border-bottom: 3px solid transparent;
+
+}
+.nav-link:hover{
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height: 100%;
+}
+.header{
+    margin-top: 100px;
+    background-image: url("../img/background-header.jpg"); 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    box-shadow:7px 11px 30px black;
+}
+
+
+.header h1{
+    font-size: 40px; 
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.header .btn{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 2s;
+}
+
+.header .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.header p{
+    font-size : 20px;
+    margin-bottom: 30px;
+}
+
+.icon i{
+    font-size: 30px; 
+    color: white;
+
+}
+.about-heading h2 h3{
+   
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.d1{
+    border-bottom: 2px solid transparent;
+
+}
+.d2:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    height: 100%;
+}
+
+.experience{
+    background:url(../img/experience.jpg) no-repeat center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+    
+}
+
+.experience .experience_shadow{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    height: 700px;
+    width: 50%;
+}
+
+.experience h3{
+    position: absolute; 
+    left: 10%;
+    top: 15%;
+}
+
+.experience h1{
+    position: absolute; 
+    left: 10%;
+    top: 20%;
+    
+}
+
+.experience .list-experience{
+    background-color: #2D59A9; 
+    width: 920px; 
+    height: 350px;
+    opacity: 0.6;
+    position: absolute;
+    top: 35%;
+    left: 16%;
+
+}
+.part1{
+    position: absolute;
+    left: 20px;
+    top: 20%;
+}
+.map{
+    position: relative;
+    
+}
+
+.iframe-shadow {
+    position: absolute;
+    top: 0px;
+    color: #000;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    width: 100%;
+    height: 700px;
+}
+.contact-form h1{
+    position: absolute;
+    top: 130px;
+    left: 38%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    
+   
+}
+.border1{
+    height: 2px;
+    width: 170px;
+    margin-left: 65px;
+    background-color: bisque;
+}
+.border2{
+    height: 2px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: -50px;
+    background-color: #0275d8;
+}
+.contact{
+    position: relative;
+}
+.form{
+    position : absolute; 
+    top: 250px;
+}
+
+.footer-icon{
+   text-align: center;
+   color: #ddd;
+   font-size: 50px;
+   padding-top : 70px; 
+}
+#portfolio .potfolio-title{
+    position: absolute;
+    left: 33%;
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .logo {
+        margin-left: 0px;
+    }
+    .item {
+
+    }
+}
+@media screen and (max-width: 992px) {
+    .logo {
+        margin-left: 390px;
+    }
+    .item {
+        margin-left: 130px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 250px;
+    }
+    .item {
+        margin-left: 0px;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .logo {
+        margin-left: 170px;
+    }
+    .item {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+}
